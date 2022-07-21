@@ -1,0 +1,39 @@
+/*Styles for Blog Section*/
+.article {
+    width: 250px;
+    height: 300px;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article a,
+p,
+.fa-clock,
+.fa-comment-dots,
+span {
+    margin: 8px 0 10px 10px;
+}
+
+.article a {
+    color: #161616;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 10px;
+}
+
+.fa-clock,
+.fa-comment-dots,
+span {
+    margin-left: 10px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-comment-dots {
+    margin-left: 15px;
+}

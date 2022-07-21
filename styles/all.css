@@ -74,3 +74,47 @@ main {
 section {
     margin-bottom: 130px;
 }
+
+/*Styles for Article Section*/
+.side-bar {
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    background-color: #161616;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.side-bar a {
+    text-align: center;
+    text-decoration: none;
+    color: #161616;
+    width: 150px;
+    margin: 15px;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.side-bar a#active {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.article-section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-right: 2%;
+}
