@@ -119,6 +119,10 @@ section {
     margin-right: 2%;
 }
 
+.view-all-button {
+    display: none;
+}
+
 /*Styles for Footer Section*/
 footer {
     display: flex;

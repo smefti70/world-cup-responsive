@@ -1,0 +1,135 @@
+/*Resoponsive Styles for Tablets*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-banner {
+        width: 90%;
+    }
+
+    .top-banner-detail h1 {
+        font-size: 40px;
+    }
+
+    .top-banner-detail p {
+        font-size: 14px;
+    }
+
+    .article-section {
+        flex-direction: column;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    .side-bar {
+        width: 100%;
+        max-width: 100%;
+        background-color: #fff;
+        flex-direction: row;
+    }
+
+    .side-bar a {
+        padding: 10px 15px;
+        border: 1px solid #E8E8E8;
+    }
+
+    .articles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all-button {
+        text-align: center;
+        border-radius: 10px;
+        padding: 15px 30px;
+        background-color: #DD0000;
+        margin-top: 30px;
+        display: inline-block;
+        width: 80px;
+    }
+
+    .view-all-button a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    /* footer nav {} */
+}
+
+/*Resoponsive Styles for Smartphones*/
+@media screen and (max-width: 767px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-banner {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .top-banner-detail {
+        text-align: center;
+        padding-right: 5%;
+    }
+
+    .top-banner img {
+        width: 100%;
+    }
+
+    section {
+        margin-bottom: 25px;
+    }
+
+    .article-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-bar {
+        background-color: #fff;
+    }
+
+    .side-bar a {
+        padding: 10px 15px;
+        border: 1px solid #E8E8E8;
+    }
+
+    .articles {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+
+    .article {
+        width: 100%;
+        height: 550px;
+    }
+
+    .article p {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    footer hr {
+        margin-top: 10px;
+    }
+
+    footer nav {
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer nav a {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .social-links a {
+        margin-left: 5px;
+    }
+}
